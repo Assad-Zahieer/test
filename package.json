@@ -36,7 +36,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jest --coverage --coverageDirectory=_test --continue-on-error",
+    "test": "jest --coverage --coverageDirectory=_test || :",
+    "posttest": "echo posttest",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
